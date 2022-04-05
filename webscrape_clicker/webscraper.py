@@ -10,7 +10,7 @@ options.add_experimental_option("debuggerAddress", "localhost:8989")
 
 
 url = 'https://www.youtube.com/c/NikolajMitrofanov'
-driver = webdriver.Chrome(chrome_options=options, executable_path=r"C:/Users/clib_/Desktop/UNIVERSE/PROGRAMMING/PYTHON/GIT-WEBSCRAPE/chromedriver/chromedriver.exe")
+driver = webdriver.Chrome(chrome_options=options, executable_path=r"C:/Users/clib_/Desktop/UNIVERSE/PROGRAMMING/PYTHON/GIT-WEBSCRAPE/webscrape_clicker/chromedriver/chromedriver.exe")
 driver.get(url)
 
 
